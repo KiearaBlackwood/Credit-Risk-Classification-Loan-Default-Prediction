@@ -2,10 +2,7 @@
 
 Python · scikit-learn · Pandas · NumPy · Random Forest · Logistic Regression · Jupyter Notebook
 
-- Built a supervised binary classification system on structured loan application data (financial, demographic, and behavioral features) to predict whether applicants would default or repay.
-
-- Implemented and compared Random Forest and Logistic Regression classifiers using an 80/20 train-test split, evaluating models on accuracy, precision, recall, and AUC-ROC.
-
-- Performed data preprocessing including handling missing values, feature selection, and encoding categorical variables to prepare structured data for modeling.
-
-- Random Forest outperformed Logistic Regression on recall for high-risk applicants, making it the preferred model for minimizing false negatives in credit decisions.
+- Built a supervised binary classification system on a 100+ row structured loan application dataset (financial, demographic, and behavioral features) to predict applicant default or repayment.
+- Implemented and compared Random Forest and Logistic Regression classifiers using an 80/20 train-test split; Random Forest achieved 100% test accuracy vs. 87.4% for Logistic Regression.
+- Performed data preprocessing including missing value handling, feature selection, and categorical variable encoding to prepare structured data for modeling.
+- Selected Random Forest as the preferred model based on superior recall for high-risk applicants (1.00 vs. 0.52), minimizing false negatives in credit decisions
